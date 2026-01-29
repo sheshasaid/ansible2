@@ -1,0 +1,23 @@
+{
+    "name": "Sheshasai",
+    "dob": "28-09-1992",
+    "age": "33",
+    "address": [
+        {
+            "type": "current",
+            "doorno": "502",
+            "street": "KPHB",
+            "city": "HYD",
+            "pin": "500085"
+        },
+          {
+            "type": "permanent",
+            "doorno": "502",
+            "street": "KPHB",
+            "city": "HYD",
+            "pin": "500085"
+        }
+    ],
+
+    "skills": ["java", "cloud", "devops"]
+}
