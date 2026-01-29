@@ -6,8 +6,8 @@
     DURATION: 10HRS
     TRAINER: Siva
   tasks:
-  - name: print the variable
-  vars:
-    COURSE: DevOps
-  ansible.builtin.debug:
-    msg: "Course is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}" 
+  - name: print the course info
+    vars:
+      COURSE: DevOps
+    ansible.builtin.debug:
+      msg: "Course is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}" 
